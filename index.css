@@ -1,0 +1,127 @@
+
+
+.container {
+     padding: 80px 120px;
+ }
+
+ body {
+    font: 400 15px/1.8 Lato, sans-serif;
+    color: #777;
+}
+h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: #111;
+}
+/* --------------------------Navbar------------------ */
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.nav-tabs li a {
+     color: #777;
+ }
+
+ .open .dropdown-toggle {
+    color: #fff;
+    background-color: #555 !important;
+}
+.dropdown-menu li a {
+    color: #000 !important;
+}
+.dropdown-menu li a:hover {
+    background-color: #00796C !important;
+}
+
+/* ------------------------------------part1 Carousel */
+
+  .carousel-inner img {
+      /* -webkit-filter: grayscale(50%);
+      filter: grayscale(50%); /* make all photos black and white */
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+}
+
+/* ----------------------Dark Background Interface-------- */
+.bg-1 {
+     background: #2d2d30;
+     color: #bdbdbd;
+ }
+
+.bg-1 h3 {color: #fff;}
+.bg-1 p {font-style: italic;}
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/* ----------------------Footer----------------------------- */
+footer {
+      background-color: #2d2d30;
+      color: #f5f5f5;
+      padding: 32px;
+      width: 100%;
+  }
+  footer a {
+      color: #f5f5f5;
+  }
+  footer a:hover {
+      color: #777;
+      text-decoration: none;
+  }
+
+  /* -------------------ul for social media-------- */
+  /* .socialMedia{
+    display: flex;
+    position: : absolute;
+    align-items: center;
+    text-align: center;
+  }
+  .socialMedia li {
+    list-style: none;
+  }
+  .socialMedia li a {
+    line-height: 80px;
+    font-size: 35px;
+    margin: 0 10px;
+    color: #2d2d30;
+    align-items: center;
+  } */
+  a .fab {
+    position: relative;
+    color: #fff;
+    transition: .5%;
+    font-size: 45px;
+    margin: 0 10px;
+  }
+  .map {
+    margin-left: 100px;
+    filter: grayscale(30%);
+  }
